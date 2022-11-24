@@ -1,6 +1,6 @@
 
 apply plugin: 'com.android.application'
-//apply plugin: 'com.branch.plugin.dellog'
+apply plugin: 'com.branch.plugin.dellog'
 
 android {
   compileSdkVersion 25
@@ -33,6 +33,6 @@ dependencies {
 
 //dellogExtension.sourceDir = '/src'
 
-//dellogExtension {
-//  sourceDir = '/src'
-//}
+dellogExtension {
+  sourceDir = '/src'
+}
